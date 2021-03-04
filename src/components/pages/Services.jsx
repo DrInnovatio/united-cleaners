@@ -7,7 +7,7 @@ import '../../App.css'
 
 const action = (
   <Button color="secondary" size="small">
-    lorem ipsum dolorem
+    Lorem, ipsum
   </Button>
 );
 
