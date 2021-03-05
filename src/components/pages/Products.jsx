@@ -8,7 +8,7 @@ export default function Products() {
     <div className="products">
       <h2 >You can download the apps right now</h2>
       <div style={ { textAlign: "center" } }>
-        <h4>Sorry. This application is still beta version,</h4>
+        <h4>You deserve to be treated as a specialist.</h4>
         <h5>and being tested with the students of</h5>
         <div style={ { fontSize: "25px", margin: "20px", color: "#2ec1ac" } }>
           <li>Queensland University of Technology</li>
