@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-import HeroSection from '../MainSection.jsx'
+import MainSection from '../MainSection'
 import Cards from '../Cards'
 import Footer from '../Footer'
  
@@ -8,7 +8,7 @@ import Footer from '../Footer'
 function Home () {
   return (
     <>
-      <HeroSection />
+      <MainSection />
       <Cards />
       <Footer /> 
     </>

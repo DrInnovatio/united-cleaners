@@ -3,7 +3,7 @@ import '../App.css'
 import { Button } from './Button'
 import './MainSection.css'
 
-function HeroSection () {
+function MainSection () {
   return (
     <div className='hero-container'>
       <image src='/images/img-2.png'/>
@@ -29,4 +29,4 @@ function HeroSection () {
   )
 }
 
-export default HeroSection
+export default MainSection
