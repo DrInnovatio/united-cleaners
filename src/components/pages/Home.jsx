@@ -7,11 +7,11 @@ import Footer from '../Footer'
 
 function Home () {
   return (
-    <>
+    <div>
       <MainSection />
       <Cards />
       <Footer /> 
-    </>
+    </div>
   )
 }
 
