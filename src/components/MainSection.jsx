@@ -5,10 +5,11 @@ import './MainSection.css'
 
 function MainSection () {
   return (
-    <div className='hero-container'>
-      <image src='/images/img-2.png'/>
-      <h1>Making New Connections</h1>
-      <p>Do you want to make new friends?</p>
+    
+    <div className='hero-container' >
+    
+      <h3>Being united is the right and the power.</h3>
+      <p>You always deserve to be treated as a professional.</p>
       <div className='hero-btns'>
         <Button
           className='btns'
