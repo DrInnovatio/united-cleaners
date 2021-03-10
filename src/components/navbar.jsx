@@ -49,7 +49,7 @@ function Navbar () {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Report bad customers
               </Link>
             </li>
 
