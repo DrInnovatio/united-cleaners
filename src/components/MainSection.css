@@ -1,6 +1,6 @@
 .hero-container {
   background-image: url('../images/img-0.png');
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,16 +9,18 @@
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  text-shadow: 2px 2px #0026ffdc;
 }
 
 .hero-container > h3 {
-  color: rgb(104, 89, 241);
+  color: rgb(8, 235, 76);
   font-size: 45px;
   margin-top: -100px;
 }
 
 .hero-container > p {
+  text-shadow: 2px 2px #0026ffdc;
   margin-top: 8px;
   color: rgb(104, 89, 241);
   font-size: 32px;
