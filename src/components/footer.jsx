@@ -60,7 +60,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to='/' className="social-logo">
-              Uni Meets Uni <i className="fa fa-compass" style={ { paddingLeft: "15px" } }></i>
+              United Cleaners <i className="fa fa-compass" style={ { paddingLeft: "15px" } }></i>
             </Link>
           </div>
           {/*<small className="website-rights">UmU @ 2020</small>*/ }

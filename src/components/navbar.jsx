@@ -45,7 +45,7 @@ function Navbar () {
 
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/reportBadCustomers'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

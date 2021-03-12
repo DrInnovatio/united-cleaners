@@ -1,6 +1,6 @@
 .cards {
-  padding: 4rem;
-  background: rgb(247, 236, 208);
+  padding: 2rem;
+  background: rgb(151, 182, 160);
 }
 
 h1 {
@@ -101,7 +101,7 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
-    width: 84%;
+    width: 90%;
   }
 }
 
