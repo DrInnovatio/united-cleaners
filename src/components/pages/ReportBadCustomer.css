@@ -1,5 +1,11 @@
 .whole{
-  margin: 90px;
-  width: 80%;
-  
+  margin: 3% 14%;
+  width: 70%;
+  background-color: green;
+}
+
+.report {
+  width: 60%;
+  height: 10%;
+  background-color: pink;
 }

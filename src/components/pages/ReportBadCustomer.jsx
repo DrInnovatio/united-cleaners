@@ -24,7 +24,10 @@ class FormExampleFieldControl extends Component {
   render() {
     const { value } = this.state
     return (
-      <Form className='whole'>
+      <div>
+        <h2 className='report'>Report the bad customers who have treated you bad.</h2>
+
+        <Form className='whole'>
         <Form.Group widths='equal'>
           <Form.Field
             control={Input}
@@ -78,6 +81,8 @@ class FormExampleFieldControl extends Component {
         />
         <Form.Field control={Button}>Submit</Form.Field>
       </Form>
+
+      </div>
     )
   }
 }
