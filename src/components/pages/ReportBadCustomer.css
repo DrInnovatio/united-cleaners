@@ -5,7 +5,11 @@
 }
 
 .report {
-  width: 60%;
-  height: 10%;
+  width: 45%;
+  height: 90px;
   background-color: pink;
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+  
 }
