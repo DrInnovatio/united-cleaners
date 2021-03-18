@@ -13,38 +13,37 @@ function Cards() {
       <h1>Check out the new way for FUN!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-         <ul className="cards__item">
+          <ul className="cards__item">
+            
           <CardItem 
             src={photo_1}
             text="Report Bad Customers"
-            label='Travel'
             path='/services'
-          />
+            />
+            
           <CardItem
               src={photo_2}
               text="Share your know-how "
-              label='Love'
               path='/services'
-          />  
+            />  
         </ul>
         
           <ul className="cards__item">
             <CardItem
               src={photo_3}
               text="Say something"
-              label='Fun time'
               path='/services'
             />
+
             <CardItem
               src={photo_4}
               text="Market Place"
-              label='Romantic'
               path='/services'
             />
+            
             <CardItem
               src={photo_5}
               text="Jobs"
-              label='Adventure'
               path='/services'
             />
 

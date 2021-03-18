@@ -33,9 +33,7 @@ function Navbar () {
             United_Cleaners <i style={{paddingLeft: "10px"}} class='fa fa-FaBroom'></i>
           </Link>
 
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
-          </div>
+          
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -63,7 +61,7 @@ function Navbar () {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button  buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>
