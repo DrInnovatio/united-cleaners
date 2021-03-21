@@ -2,6 +2,7 @@
   margin: 3% 14%;
   width: 70%;
   background-color: green;
+  font-size: 30px;
 }
 
 .report {
@@ -12,4 +13,12 @@
   padding: 30px;
   margin: auto;
   
+}
+
+.button {
+  padding: 1% 45%;
+}
+
+.agree {
+  text-align: center;
 }

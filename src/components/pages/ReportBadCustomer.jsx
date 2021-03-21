@@ -26,7 +26,6 @@ class FormExampleFieldControl extends Component {
     return (
       <div>
         <h2 className='report'>Report the bad customers who have treated you bad.</h2>
-
         <Form className='whole'>
         <Form.Group widths='equal'>
           <Form.Field
@@ -70,21 +69,22 @@ class FormExampleFieldControl extends Component {
             onChange={this.handleChange}
           />
         </Form.Group>
-        <Form.Field
+          <Form.Field
+          className='text_field'
           control={TextArea}
           label='About'
           placeholder='Tell us more about you...'
         />
-        <Form.Field
+          <Form.Field
+            className='agree'
           control={Checkbox}
           label='I agree to the Terms and Conditions'
         />
-        <Form.Field control={Button}>Submit</Form.Field>
+        <Form.Field className='button' control={Button}>Submit</Form.Field>
       </Form>
-
       </div>
     )
-  }
+  } 
 }
 
 export default FormExampleFieldControl
