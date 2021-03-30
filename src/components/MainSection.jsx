@@ -23,7 +23,7 @@ function MainSection () {
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          How to use the app <i className='fa fa-play-circle' />
+          Install the App <i className='fa fa-play-circle' />
         </Button>
       </div>
     </div>
